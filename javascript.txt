@@ -1,0 +1,11 @@
+https://qiita.com/ab-boy_ringo/items/23f60e051e3022f2a599
+上のコードでできることが書かれている
+
+https://jp-seemore.com/web/4804/
+↑これはパスワード制限に関するサンプルコード
+
+https://jsprimer.net/use-case/ajaxapp/http/
+↑細かいコード技術について
+
+https://itokoba.com/archives/1456#toc8
+ロードマップ　
