@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./resources/styles/destyle.css" />
+    <link rel="stylesheet" href="./resources/styles/style.css" />
+  </head>
+  <body>
+    <header class="Header">
+      <button class="Button">
+        <div class="Button-LineTop"></div>
+        <div class="Button-LineMedium"></div>
+        <div class="Button-LineBottom"></div>
+      </button>
+      <nav class="Menu">
+        <div class="Menu-Header">MENU</div>
+        <ul class="Menu-List">
+          <li class="Menu-List-Item">
+            <a href="#" class="Menu-List-Item-Link">アイテム1</a>
+          </li>
+          <li class="Menu-List-Item">
+            <a href="#" class="Menu-List-Item-Link">アイテム2</a>
+          </li>
+          <li class="Menu-List-Item">
+            <a href="#" class="Menu-List-Item-Link">アイテム3</a>
+          </li>
+          <li class="Menu-List-Item">
+            <a href="#" class="Menu-List-Item-Link">アイテム4</a>
+          </li>
+          <li class="Menu-List-Item">
+            <a href="#" class="Menu-List-Item-Link">アイテム5</a>
+          </li>
+          <li class="Menu-List-Item">
+            <a href="#" class="Menu-List-Item-Link">アイテム6</a>
+          </li>
+          <li class="Menu-List-Item">
+            <a href="#" class="Menu-List-Item-Link">アイテム7</a>
+          </li>
+          <li class="Menu-List-Item">
+            <a href="#" class="Menu-List-Item-Link">アイテム8</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="Overlay"></div>
+    </header>
+
+    <script>
+      const menu = document.querySelector(".Menu")
+      const button = document.querySelector(".Button")
+      const overlay = document.querySelector(".Overlay")
+      const body = document.body
+
+      const toggleMenu = () => {
+        menu.classList.toggle("MenuIsOpen")
+        overlay.classList.toggle("OverlayIsOpen")
+        button.classList.toggle("ButtonIsOpen")
+        body.classList.toggle("IsScrollAllowed")
+      }
+
+      button.addEventListener("click", () => {
+        toggleMenu()
+      })
+
+      overlay.addEventListener("click", () => {
+        toggleMenu()
+      })
+    </script>
+  </body>
+</html>

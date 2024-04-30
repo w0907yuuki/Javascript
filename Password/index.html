@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>ページのタイトル</title>
+</head>
+<body>
+<label>名前 (空欄確認)：<input type="text" id="nameText"></label>
+<input type="button" value="Check" id="checkButton">
+<p id="msg"></p>
+<label>ID (半角数字確認)</label>
+<input type="text" id="text" name="text" value="" onInput="textCheck(this)" required maxlength="10" size="10">
+　　<input type="button" value="表示" onclick="buttonClick();"/>
+　　<p id="html"></p>
+<label>ID (文字数確認)</label>
+<input type="text" id="sampleForm" />
+<p><span id="inputCounter">0</span>文字</p>
+<form method="post" action="">
+	<label for="input_color">パスワード(Pass表示非表示)</label>
+	<input type="password" id="input_pass" name="input_pass" value="">
+
+</form>
+<!-パスワード設定　大文字、数字、アルファベットのみ-->
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
