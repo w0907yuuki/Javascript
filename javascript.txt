@@ -13,3 +13,7 @@ https://zero-plus.io/media/web-roadmap/
 
 https://kanlog.org/javascript-modal/
 モーダルウィンドウのサンプルコードがたくさんある
+
+https://dubdesign.net/download/html-css/javascript-scrollreveal/
+スクロールアニメーションのサンプルコードがたくさんある
+実装方法は自分が作ったスクロールアニメーションのサンプルコードを参照

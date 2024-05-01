@@ -1,0 +1,14 @@
+.container {
+  height: 2000px; /* スクロールするための高さを設定 */
+  padding-top: 800px; /* テスト用のスペースを追加 */
+}
+
+.box {
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.box.show {
+  opacity: 1;
+}

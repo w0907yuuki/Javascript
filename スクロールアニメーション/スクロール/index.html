@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>モーダルウィンドウ</title>
+  <!-- スタイルシートを読み込む -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="img"><img src ="pc.png"></div>
+<!-- スクリプトを読み込む -->
+
+　<script src="https://unpkg.com/scrollreveal"></script>
+　<script>
+　ScrollReveal().reveal('.img', { 
+origin: 'left', // 左から
+distance: '50px', // 50px
+reset: true   // 何回もアニメーション表示
+});
+</script>
+</body>
+</html>
