@@ -1,0 +1,32 @@
+body{
+    background: #000;
+}
+#nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#nav li {
+    list-style: none;
+    width: 200px;
+    background: #fff;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 2.8;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+#nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#nav li ul {
+    display: none;
+    margin-left: -40px;
+    position: absolute;
+}
+#nav li ul li {
+    border-top: 1px solid #eee;
+}
